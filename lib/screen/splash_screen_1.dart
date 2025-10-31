@@ -11,13 +11,13 @@ class SplashScreen1 extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Container(
-              width: 160,
-              height: 160,
+              width: 200,
+              height: 200,
               decoration: const BoxDecoration(
                 shape: BoxShape.circle,
                 color: Colors.deepOrange,
                 image: DecorationImage(
-                  image: AssetImage('assets/images/photo1.png'),
+                  image: AssetImage('assets/images/image1.png'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -74,6 +74,27 @@ class SplashScreen1 extends StatelessWidget {
                   ),
                 ),
               ],
+            ),
+            const SizedBox(height: 20),
+
+            Container(
+              margin: EdgeInsets.only(left: 40, right: 40),
+              child: SizedBox(
+                height: 40,
+                width: double.infinity,
+                child: ElevatedButton(
+                  onPressed: () {
+                    //Todo call next Pages
+                  },
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.deepOrange, // changed to deepOrange
+                  ),
+                  child: Text(
+                    "Continue",
+                    style: TextStyle(fontSize: 14, color: Colors.white),
+                  ),
+                ),
+              ),
             ),
           ],
         ),
