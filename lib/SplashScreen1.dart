@@ -22,6 +22,26 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 30),
+
+            Text(
+              "Halloween Treats",
+              style: TextStyle(
+                fontSize: 24.0, // Ukuran besar
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+
+            SizedBox(height: 10),
+
+            Text(
+              "Delicious Halloween-themed snacks \n and treats for everyone!",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 14.0, // Ukuran lebih kecil
+                color: const Color.fromARGB(255, 122, 15, 15), // Warna hijau
+              ),
+            ),
           ],
         ),
       ),
