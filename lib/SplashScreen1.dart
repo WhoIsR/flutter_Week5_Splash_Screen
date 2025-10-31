@@ -22,9 +22,9 @@ class SplashScreen1 extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 30),
+            const SizedBox(height: 30),
 
-            Text(
+            const Text(
               "Halloween Treats",
               style: TextStyle(
                 fontSize: 24.0, // Ukuran besar
@@ -32,15 +32,48 @@ class SplashScreen1 extends StatelessWidget {
               ),
             ),
 
-            SizedBox(height: 10),
+            const SizedBox(height: 10),
 
-            Text(
+            const Text(
               "Delicious Halloween-themed snacks \n and treats for everyone!",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 14.0, // Ukuran lebih kecil
-                color: const Color.fromARGB(255, 122, 15, 15), // Warna hijau
+                color: Color.fromARGB(255, 122, 15, 15), // Warna teks
               ),
+            ),
+            const SizedBox(height: 5),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color.fromARGB(255, 155, 75, 75), // Warna aktif
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color(0xFFedede9), // Warna non-aktif
+                  ),
+                ),
+                const SizedBox(width: 10),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Color(0xFFedede9), // Warna non-aktif
+                  ),
+                ),
+              ],
             ),
           ],
         ),
