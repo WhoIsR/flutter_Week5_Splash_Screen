@@ -26,10 +26,7 @@ class SplashScreen1 extends StatelessWidget {
 
             const Text(
               "Halloween Treats",
-              style: TextStyle(
-                fontSize: 24.0, // Ukuran besar
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold),
             ),
 
             const SizedBox(height: 10),
@@ -38,8 +35,8 @@ class SplashScreen1 extends StatelessWidget {
               "Delicious Halloween-themed snacks \n and treats for everyone!",
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 14.0, // Ukuran lebih kecil
-                color: Color.fromARGB(255, 122, 15, 15), // Warna teks
+                fontSize: 14.0,
+                color: Color.fromARGB(255, 122, 15, 15),
               ),
             ),
             const SizedBox(height: 5),
@@ -52,7 +49,7 @@ class SplashScreen1 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color.fromARGB(255, 155, 75, 75), // Warna aktif
+                    color: Color.fromARGB(255, 155, 75, 75),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -61,7 +58,7 @@ class SplashScreen1 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color(0xFFedede9), // Warna non-aktif
+                    color: Color(0xFFedede9),
                   ),
                 ),
                 const SizedBox(width: 10),
@@ -70,7 +67,7 @@ class SplashScreen1 extends StatelessWidget {
                   height: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color(0xFFedede9), // Warna non-aktif
+                    color: Color(0xFFedede9),
                   ),
                 ),
               ],
@@ -87,7 +84,7 @@ class SplashScreen1 extends StatelessWidget {
                     //Todo call next Pages
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.deepOrange, // changed to deepOrange
+                    backgroundColor: Colors.deepOrange,
                   ),
                   child: Text(
                     "Continue",
