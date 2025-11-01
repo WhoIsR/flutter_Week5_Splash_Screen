@@ -17,7 +17,7 @@ class SplashScreen3 extends StatelessWidget {
                 shape: BoxShape.circle,
                 color: Colors.deepOrange,
                 image: DecorationImage(
-                  image: AssetImage('assets/images/image1.png'),
+                  image: AssetImage('assets/images/image3.png'),
                   fit: BoxFit.cover,
                 ),
               ),
